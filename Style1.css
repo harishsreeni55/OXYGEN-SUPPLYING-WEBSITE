@@ -1,0 +1,74 @@
+body{
+    font-family: "cooper";
+    color: yellowgreen;
+    animation: change 10s infinite;
+}
+@keyframes change{
+    0%{background-color:#F79F1F}
+    25%{background-color:#EE5A24}
+    50%{background-color:#F79F1F}
+    100%{background-color:#EE5A24}
+    25%{background-color:#EE5A24}
+    10%{background-color:#F79F1F}
+}
+.Signup_box{
+    border-radius: 50px;
+    width: 60%;
+    padding: 80px;
+    position: absolute;
+    text-align: center;
+    background: black ;
+    margin: 5% 13%;
+    color: yellowgreen;
+}
+.Signup_box input[type = "email"],.Signup_box input[type = "number"],select,.Signup_box input[type="password"],.Signup_box input[type="tel"],.Signup_box input[type="date"],.Signup_box input[type = "text"]{
+    text-align: center;
+    background: none;
+    border: 2px solid cyan;
+    padding: 14px 10px;
+    width: 300px;
+    color: white;
+    border-radius:24px;
+    outline:none;
+    transition: 0.20s;
+    font-family:"cooper";
+}
+.Signup_box input[type = "text"]{
+    margin: 20px 25px;
+    display: inline;
+}
+.Signup_box input[type = "email"],.Signup_box input[type="password"],select,.Signup_box input[type = "number"],.Signup_box input[type="tel"],.Signup_box input[type="date"]{
+    margin: 10px auto;
+    display : block;
+}
+.Signup_box input[type = "email"]:focus,.Signup_box input[type = "number"]:focus,select:focus,.Signup_box input[type="password"]:focus,.Signup_box input[type="tel"]:focus,.Signup_box input[type="date"]:focus,.Signup_box input[type = "text"]:focus{
+    width: 350px;
+    border: 4px solid lime;
+}
+.Signup_box input[type = "submit"],.Signup_box input[type = "reset"]{
+    margin: 20px 20px;
+    text-align: center;
+    display : inline;
+    background: none;
+    border: 2px solid Gray ;
+    padding: 14px 10px;
+    color: white;
+    width:100px;
+    border-radius:24px;
+    outline:none;
+    cursor: pointer;
+}
+.Signup_box input[type = "submit"]:hover,.Signup_box input[type = "reset"]:hover
+{
+    width:110;
+    background: gray;
+    color:whitesmoke;
+}
+option{
+    color: white;
+    background-color:black;
+
+}
+.Signup_box input[type = "radio"]{
+color: aliceblue;
+}

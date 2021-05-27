@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Sign Up</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+ 
+<form class="Signup_box" action = "test2.php" method  ="POST" >
+    <div class="navbar">
+        <a href="Login.php">LOGIN</a>
+        <a class="active" href="test2.html">SIGN UP</a>
+</div>
+<div class = 'a' id = "a">
+
+<input type = 'text' id = "FIRST_NAME" name = "FIRST_NAME" placeholder = "Enter your Firstname" required  autocomplete='off'>
+
+<input type = 'text' id = 'LAST_NAME' name = 'LAST_NAME' placeholder = 'Enter your Lastname' required autocomplete='off'><br>
+
+<label id = "DOB" for= "DOB" class= "DOB">Date of Birth:</label><br>
+<input type = 'date' id = "DOB" name = "DOB" required autocomplete='off'><br>
+<label id = 'GENDER'for = 'GENDER' name = 'GENDER'>GENDER:</LABEL>
+<input type = "radio" name = "gender" value = "gender" required>MALE
+<input type = "radio" name = "gender" value = "gender" required>FEMALE
+<br>
+<label id = "father_name" for= "father_name" class= "father_name" required autocomplete='off'>Father Name:</label><br>
+<input type = 'text' id = "FATHER_NAME" name = "FATHER_NAME" placeholder = "Enter your Father Name"  autocomplete='off' required><br>
+
+<label id = "mother_name" for= "mother_name" class= "mother_name">Mother Name:</label><br>
+<input type = 'text' id = "MOTHER_NAME" name = "MOTHER_NAME" placeholder = "Enter your Mother Name" autocomplete='off' required><br>
+
+<label id = "aadhar_number" for= "aadhar_number" class= "aadhar_number">AADHAR Number:</label><br>
+<input type = 'number' id = "aadhar_number" name = "aadhar_number" placeholder = "Enter your AADHAR Number" autocomplete='off' required><br>
+
+<select name="district" id="district" class="form-control" required>
+<option value="Ariyalur">Ariyalur</option>
+<option value="Chengalpattu">Chengalpattu</option>
+<option value="Chennai">Chennai</option>
+<option value="Coimbatore">Coimbatore</option>
+<option value="Cuddalore">Cuddalore</option>
+<option value="Dharmapuri">Dharmapuri</option>
+<option value="Dindugal">Dindugal</option>
+<option value="Erode">Erode</option>
+<option value="Kalakuruchi">Kalakuruchi</option>
+<option value="Kanchipuram">Kanchipuram</option>
+<option value="Kanyakumari">Kanyakumari</option>
+<option value="Karur">Karur</option>
+<option value="Krishnagiri">Krishnagiri</option>
+<option value="Madurai">Madurai</option>
+<option value="Nagapatinam">Nagapatinam</option>
+<option value="Namakal">Namakal</option>
+<option value="Nilgiris">Nilgiris</option>
+<option value="Perambalur">Perambalur</option>
+<option value="Pudhukotai">Pudhukotai</option>
+<option value="Ramnad">Ramnad</option>
+<option value="Ranipet">Ranipet</option>
+<option value="Salem">Salem</option>
+<option value="Sivagangai">Sivagangai</option>
+<option value="Tenkasi">Tenkasi</option>
+<option value="Tanjore">Tanjore</option>
+<option value="Theni">Theni</option>
+<option value="Tuticorin">Tuticorin</option>
+<option value="Trichy">Trichy</option>
+<option value="TIrunelvi">Tirunelvi</option>
+<option value="Thirupathur">Thirupathur</option>
+<option value="Thiruvallur">Thiruvallur</option>
+<option value="Thiruvanamalai">Thiruvanamalai</option>
+<option value="Thiruvarur">Thiruvarur</option>
+<option value="Vellore">Vellore</option>
+<option value="Vilupuram">Vilupuram</option>
+<option value="Viruthunagar">Viruthunagar</option>
+</select><br>
+
+
+	
+
+<label id = "town" for= "town" class= "town">Town:</label><br>
+<input type = 'text' id = "TOWN" name = "TOWN"  Placeholder = "Enter your Town name" autocomplete='off' required><br>
+
+<label id = "area_name" for= "area_name" class= "area_name">Area:</label><br>
+<input type = 'text' id = "AREA_NAME" name = "AREA_NAME" placeholder = "Enter your Area Name" autocomplete='off' required><br>
+
+
+<label id = "street_name" for= "street_name" class= "street_name">Street:</label><br>
+<input type = 'text' id = "STREET_NAME" name = "STREET_NAME" placeholder = "Enter your Street Name" autocomplete='off' required><br>
+
+<label id = "door_no" for= "door_no" class= "door_no">Door Number:</label><br>
+<input type = 'text' id = "DOOR_NAME" name = "DOOR_NAME" placeholder = "Enter your Door Number" autocomplete='off' required><br>
+
+<label id = "zipcode" for= "zipcode" class= "zipcode">Zip Code:</label><br>
+<input type = 'number' id = "zipcode" name = "zipcode" placeholder = "Enter your Zip code" autocomplete='off' required><br>
+
+<label id = "Land Mark"> Land Mark:(Optional)</label><br>
+<input type = 'text'  id = 'Land_mark' name = 'Land_mark' autocomplete='off' placeholder = 'Enter any nearby landmark'><br>
+
+<select name="size_population" id="size_population" class="size_population" required>
+<option value="RURAL">RURAL</option>
+<option value="URBAN">URBAN</option>
+<option value="METROPOLITAN">METROPOLITAN</option>
+</select><br>
+<label id = "phone_number" for= "phone_number" class= "phone_number">Phone Number:</label><br>
+<input type = 'number' id = "phone_number" name = "phone_number" autocomplete='off' placeholder = "Enter your PHONE Number" required><br>
+
+<label id = "email">EMAIL ID:</label><br>
+<input type = 'email'  id = 'email' name = 'email' placeholder = 'Enter your Email address' autocomplete='off' required><br>
+
+<input type = "submit" name = 'submit'>
+</form>
+
